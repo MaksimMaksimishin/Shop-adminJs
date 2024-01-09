@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Интернет-магазин</title>
+</head>
+
+<body>
+    <div class="app-container" id="app"></div>
+    <div class="cart" id="cart">
+        <div class="cart-icon" id="cart-icon">0</div>
+        <div id="cart-items" class="cart-items"></div>
+    </div>
+
+    <!-- Регистрация пользователя -->
+    <div class="registration-container">
+        <h2>Регистрация</h2>
+        <form id="registration-form">
+            <label for="username">Имя пользователя:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Пароль:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Зарегистрироваться</button>
+        </form>
+    </div>
+
+    <!-- Админ-панель -->
+    <div class="admin-panel-container">
+        <h2>Админ Панель</h2>
+
+    </div>
+
+
+    <script type="module" src="js/main.js"></script>
+</body>
+
+</html>
